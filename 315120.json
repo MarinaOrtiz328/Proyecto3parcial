@@ -1,0 +1,13 @@
+{
+    "titulo": "Estudiante de CC",
+    "datos personales":{
+        "nombre": "Daniel Lopez Villalobos",
+        "numero": "6271234567",
+        "correo": "a315120@uach.mx"
+    },
+    "objetivo": "Vivir del aplauso de la gente",            
+    "experiencia": "Record mundial en buscaminas",
+    "preparacion": "Me he visto todos los videos de la capital",
+    "idiomas": ["ingles", "frances"],
+    "habilidades": ["estoico", "independiente", "veloz", "COBOL"]
+}
