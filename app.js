@@ -17,16 +17,15 @@ function responseCase(response, file) {
 
 http.createServer((request, response)=>{
     console.log(request.url);
-    const file1 = request.url=='/329577'?'./WWW/329577.json': `./WWW${request.url}`;
-    const file2 = request.url=='/315120'?'./WWW/315120.json': `./WWW${request.url}`;
-    const file3 = request.url=='/329842'?'./WWW/329842.json': `./WWW${request.url}`;
+    const file329577 = request.url=='/329577'?'./WWW/329577.json': `./WWW${request.url}`;
+    const file315120 = request.url=='/315120'?'./WWW/315120.json': `./WWW${request.url}`;
+    const file329842 = request.url=='/329842'?'./WWW/329842.json': `./WWW${request.url}`;
 
         if (request.url=='/329577')
-            responseCase(response, file1);
+            responseCase(response, file329577);
         else if (request.url=='/315120')
-            responseCase(response, file2);
+            responseCase(response, file315120);
         else if (request.url=='/329842')
-            responseCase(response, file3);
-        
+            responseCase(response, file329842); 
 
 }).listen(8888);
