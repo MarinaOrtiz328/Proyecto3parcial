@@ -7,7 +7,7 @@ function responseCase(response, file) {
             response.writeHead(404, {"Content.Type": "text/plain"});
             response.write("not found");
         } else {
-            response.writeHead(404, {"Content.Type": "text/plain"});
+            response.writeHead(200, {"Content.Type": "text/plain"});
             response.write(data);
         }
         response.end();
