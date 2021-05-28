@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /*
         *     INSERTAR URL EN LA VARIABLE DE ABAJO
          */
-        String url = "https://64e3a9e43533.ngrok.io"; //AQUI SE PONE LA URL DE ngrok
+        String url = "https://88a714666b63.ngrok.io"; //AQUI SE PONE LA URL DE ngrok (sin espacios)
         /*
         *   INSERTAR URL EN LA VARIABLE DE ARRIBA
          */
